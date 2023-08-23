@@ -35,7 +35,7 @@ function Header() {
           </div>
         </div>
         <div className="menus">
-          <ul className="bottom-navigation-bar">
+          <ul className="navigation-bar">
             <li>
               <a exact to="/">
                 Assurance vie
