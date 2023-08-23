@@ -30,8 +30,8 @@ function Header() {
                 </form>
               )}
             </div>
-            <button className="btn-inscription">Souscrire en ligne</button>
-            <button className="btn-client">Espace client</button>
+            <div className="btn-inscription">Souscrire en ligne</div>
+            <div className="btn-client">Espace client</div>
           </div>
         </div>
         <div className="menus">

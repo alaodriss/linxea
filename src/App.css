@@ -1,5 +1,26 @@
 
+:root{
+    
+    --e-global-color-primary: #000000;
+    --e-global-color-secondary: #FF8C12;
+    --e-global-color-text: #444444;
+    --e-global-color-accent: #F28A21;
+    --e-global-color-4a30db00: #2A5067;
+    --e-global-color-3f83bd14: #FFFFFF;
+    --e-global-color-4cc7f636: #F4F7F7;
+    --e-global-color-46afbbd8: #0088CC;
+    --e-global-color-23cb7ba4: #EBEBEB;
+    --e-global-color-10649c0c: #444444;
+    --e-global-color-223e502b: #FF8C12;
+    --e-global-color-1b039da: #FFF4E8;
+    --e-global-color-2e2864d1: #000000;
+    --e-global-color-a025af9: #8CB8DE;
+    --e-global-color-640c3a94: #A8A8A8;
+    --e-global-color-573b85d3: #D16C00;
+    --e-global-color-fa12eae: #000000;
+    --e-global-color-1e18cf78: #000000;
 
+}
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -30,7 +51,7 @@
   body {
 
     background-color: #FFF;
-    font-family: monospace;
+    font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
