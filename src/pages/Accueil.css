@@ -1,0 +1,76 @@
+
+.slider-container{
+    background-color: transparent;
+     background-image: linear-gradient(180deg, #CCE1EF 0%, var(--e-global-color-4cc7f636 ) 80%);
+   
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.reviews{
+    display: flex;
+    margin: 35px 0;
+    gap: 39px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.note {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--e-global-color-4a30db00);
+    
+}
+.note > .trustpilot{
+    width: 90px;
+}
+
+
+
+.pc > img {
+    width: 533px;
+    height: 491px;
+}
+
+.btns{
+    display: flex;
+}
+
+.simuler{
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--e-global-color-4a30db00);
+    margin-left: 20px;
+}
+
+.simuler:hover{
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    color:var(--e-global-color-secondary);
+}
+.flesh {
+    font-size: 1.6em;
+    position: relative;
+    top: 9px;
+}
+
+#spin {
+    color:var(--e-global-color-secondary);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 9s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"plus de conseil"}
+    100% { content:"moins de frais"}
+}

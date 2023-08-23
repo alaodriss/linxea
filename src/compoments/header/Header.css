@@ -4,28 +4,6 @@
     font-size: 16px;
 }
 
-.btn-inscription{
-    padding: 14px 18px;
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
-    color: white;
-    background-color: var(--e-global-color-secondary);
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-}
-
-.btn-inscription:hover{
-    padding: 14px 18px;
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
-    color: white;
-    background-color: var(--e-global-color-10649c0c);
-    border-radius: 5px;
-}
-
 
 .btn-client {
     padding: 14px 18px;
@@ -67,13 +45,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 160px;
+    margin: 0 10%;
 }
 
 li > a{
     color: var(--e-global-color-4a30db00);
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 
