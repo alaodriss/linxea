@@ -63,17 +63,16 @@
     gap: 20px;
 }
 
-
 .navigation-bar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 30px;
+    margin: 0 160px;
 }
 
 li > a{
     color: var(--e-global-color-4a30db00);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
