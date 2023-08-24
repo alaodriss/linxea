@@ -2,10 +2,11 @@ import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
 import Header from '../compoments/header/Header';
 import trus from '../assets/images/download.png'
-import google from '../assets/images/google.svg'
+/*import google from '../assets/images/google.svg'*/
 import pc from '../assets/images/Linxea-desktop-bo.png'
 import stars from '../assets/images/stars.png'
 import './Accueil.css'
+import Avantage from '../compoments/avantage/Avantage';
 
 function Accueil() {
   return (
@@ -15,7 +16,7 @@ function Accueil() {
             <div className='slider'> 
             <div className='slider-infos'>
                 <h1>Votre épargne mérite <br/><span id="spin"></span></h1>
-                <p>Les placements les plus efficaces du marché : assurance <br /> vie, PER, SCPI... Profitez de frais bas pour votre épargne.</p>
+                <p className='description'>Les placements les plus efficaces du marché : assurance <br /> vie, PER, SCPI... Profitez de frais bas pour votre épargne.</p>
                 <div className='btns'>
                     <div className='btn-inscription'>Souscrire en ligne</div>
                     <div className='simuler'>   <span className='flesh'><IoIosArrowForward /></span> Simuler mon projet</div>
@@ -36,6 +37,7 @@ function Accueil() {
             </div>
             </div>
         </div>
+        <Avantage />
     </>
   )
 }

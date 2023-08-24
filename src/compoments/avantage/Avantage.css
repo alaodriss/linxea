@@ -1,0 +1,28 @@
+.icons-avantage {
+    display: block;
+}
+
+.avantages{
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: 60px;
+    background-color: yellowgreen;
+    padding: 50px;
+}
+.avantage > img{
+    margin: auto;
+    width: 35px;
+    height: 35px;
+}
+.title-avantage {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2A5067;
+    padding-top: 15px;
+}
+.text-avantage{
+    color: var(--e-global-color-4a30db00 );
+    padding: 0 10%;
+    font-size: 14px;
+}
