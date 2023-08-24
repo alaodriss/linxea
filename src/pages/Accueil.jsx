@@ -2,6 +2,8 @@ import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
 import Header from '../compoments/header/Header';
 import trus from '../assets/images/download.png'
+import trophees from '../assets/images/recompenses-1-min.png'
+/*import green from '../assets/images/green.svg'*/
 /*import google from '../assets/images/google.svg'*/
 import pc from '../assets/images/Linxea-desktop-bo.png'
 import stars from '../assets/images/stars.png'
@@ -12,7 +14,7 @@ function Accueil() {
   return (
     <>
     <Header />
-        <div className='slider-container'>
+        <section className='slider-container'>
             <div className='slider'> 
             <div className='slider-infos'>
                 <h1>Votre épargne mérite <br/><span id="spin"></span></h1>
@@ -36,8 +38,27 @@ function Accueil() {
                 <img src={pc} alt='pc' />
             </div>
             </div>
-        </div>
-        <Avantage />
+        </section>
+
+ {  /*     <Avantage />*/}
+    <section className='container-infos'> 
+            <div className='infos'>
+                    <div className='trophees-infos'>
+                        <img src={trophees} alt='trophees' />
+                    </div>
+                    <div className='date-infos'>
+                        <h2>Plus de 11 récompenses en 2022 !</h2>
+                        <p>Ces distinctions ont été attribuées en 2022 par les journalistes de la publication en fonction de leurs propres critères d’analyse. La durée des récompenses est d’un an à compter de sa date d’attribution.</p>
+                        <div className='simuler'>   <span className='flesh'><IoIosArrowForward /></span>Voir toutes les récompenses</div>
+                    </div>
+                    <div className='green-infos'>
+                        {/*<img src={green} alt='green' />*/}
+                        <h2>Finance durable</h2>
+                        <p>Accès à plus de 300 fonds responsables (Finansol, ISR ..) et 80 fonds Article 9 (SFDR)</p>
+                    </div>
+            </div>
+    </section>
+
     </>
   )
 }
