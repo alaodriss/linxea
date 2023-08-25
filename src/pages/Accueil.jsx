@@ -10,6 +10,9 @@ import pc from '../assets/images/Linxea-desktop-bo.png'
 import stars from '../assets/images/stars.png'
 import './Accueil.css'
 import Avantage from '../compoments/avantage/Avantage';
+import Partenaires from '../compoments/partenaires/Partenaires';
+
+
 
 function Accueil() {
   return (
@@ -41,6 +44,7 @@ function Accueil() {
             </div>
         </section>
     <section className='container-infos'> 
+    {/** Block Avantage  CRU*/}
              <Avantage />
             <div className='infos'>
                     <div className='trophees-infos'>
@@ -57,7 +61,10 @@ function Accueil() {
                         <p>Accès à plus de 300 fonds responsables (Finansol, ISR ..) et 80 fonds Article 9 (SFDR)</p>
                     </div>
             </div>
-    </section>
+
+    {/** partenaires */}
+            <Partenaires />
+    </section>  
 
     </>
   )

@@ -3,6 +3,12 @@ import icon2 from "./assets/images/icon2.svg"
 import icon3 from "./assets/images/icon3.svg"
 import icon4 from "./assets/images/icon4.svg"
 
+import partenair1 from './assets/images/APICIL.svg'
+import partenair2 from './assets/images/GENERALI.svg'
+import partenair3 from './assets/images/SURAVENIR.svg'
+import partenair4 from './assets/images/SPIRICA.svg'
+
+
 export const Avantages = [
     
     {
@@ -32,4 +38,25 @@ export const Avantages = [
         text:"Souscription et gestion de votre épargne 100% en ligne."
     },
     
+]
+
+
+
+export const partenaires = [
+    {
+        id:1,
+        partenair:partenair1
+    },
+    {
+        id:2,
+        partenair:partenair2
+    },
+    {
+        id:3,
+        partenair:partenair3
+    },
+    {
+        id:4,
+        partenair:partenair4
+    }
 ]

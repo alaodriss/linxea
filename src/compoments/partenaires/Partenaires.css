@@ -1,0 +1,27 @@
+
+.content-partenaires{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.partenaire{
+    padding: 30px;
+}
+.partenaires{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.partenaires>h2{
+    color: var(--e-global-color-4a30db00 );
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.partenaires>p{
+    color: var(--e-global-color-4a30db00 );
+    font-size: 22;
+}
