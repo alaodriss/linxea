@@ -6,9 +6,11 @@
     border-radius: 10px;
     display: flex;
     text-align: center;
-    margin: 60px;
-    background-color: yellowgreen;
+    margin: 0 10%;
+    background-color: #FFF;
     padding: 50px;
+    position: relative;
+    bottom: 90px;
 }
 .avantage > img{
     margin: auto;
@@ -25,4 +27,11 @@
     color: var(--e-global-color-4a30db00 );
     padding: 0 10%;
     font-size: 14px;
+}
+
+.text-sousblock{
+    position: absolute;
+    top: 112%;
+    left: 31%;
+    font-size: 12px;
 }

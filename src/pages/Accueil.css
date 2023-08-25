@@ -88,14 +88,61 @@
 /*** Section 2**/
 .container-infos{
     background-color: transparent;
-    background-image: linear-gradient(180deg, var(--e-global-color-4cc7f636 ) 40%, #CCE1EF 0%);
+    background-image: linear-gradient(180deg, #CCE1EF 0%, var(--e-global-color-4cc7f636 ) 80%);
 }
 .infos{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 108px;
+    padding: 75px 0;
+
 }
 .trophees-infos >img{
     width: 301px;
     height: 129px;
+}
+
+.date-infos{
+    border-left: solid var(--e-global-color-4a30db00);
+    margin: 0 2%;
+}
+.date-infos> h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--e-global-color-4a30db00);
+    padding-left: 20px;
+    line-height: 26px;
+}
+
+.date-infos>p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: var(--e-global-color-4a30db00);
+    padding-left: 20px;
+}
+
+
+.green-infos{
+     padding: 25px ;
+    background-color: #5FB800;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.green-infos>h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.green-infos>p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.green-infos>svg{
+    font-size: 32px;
 }

@@ -12,6 +12,7 @@ interface AvantageItem {
 
 function Avantage() {
   return (
+    <>
     <div className='avantages'>
       {Avantages.map((item: AvantageItem) => {
         const { id, icon, title, text } = item;
@@ -23,7 +24,12 @@ function Avantage() {
           </div>
         );
       })}
+            <p className='text-sousblock'> *Hors SCPI, SCI, trackers et actions. D’autres frais peuvent s’appliquer.</p>
+
     </div>
+    </>
+
+
   );
 }
 

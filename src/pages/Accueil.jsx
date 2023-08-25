@@ -3,7 +3,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import Header from '../compoments/header/Header';
 import trus from '../assets/images/download.png'
 import trophees from '../assets/images/recompenses-1-min.png'
-/*import green from '../assets/images/green.svg'*/
+import { MdEco } from 'react-icons/md';
+
 /*import google from '../assets/images/google.svg'*/
 import pc from '../assets/images/Linxea-desktop-bo.png'
 import stars from '../assets/images/stars.png'
@@ -39,9 +40,8 @@ function Accueil() {
             </div>
             </div>
         </section>
-
- {  /*     <Avantage />*/}
     <section className='container-infos'> 
+             <Avantage />
             <div className='infos'>
                     <div className='trophees-infos'>
                         <img src={trophees} alt='trophees' />
@@ -52,7 +52,7 @@ function Accueil() {
                         <div className='simuler'>   <span className='flesh'><IoIosArrowForward /></span>Voir toutes les récompenses</div>
                     </div>
                     <div className='green-infos'>
-                        {/*<img src={green} alt='green' />*/}
+                       <MdEco />
                         <h2>Finance durable</h2>
                         <p>Accès à plus de 300 fonds responsables (Finansol, ISR ..) et 80 fonds Article 9 (SFDR)</p>
                     </div>
