@@ -1,6 +1,7 @@
 import React from 'react'
 import {partenaires} from '../../data'
 import './Partenaires.css'
+import Silder from '../silder/Silder'
 
 function Partenaires() {
   return (
@@ -17,6 +18,11 @@ function Partenaires() {
                 )
             })}
         </div>
+
+        
+            {/** Silder */}
+            <Silder />
+            {/** Silder */}
 </section>
 
     </>

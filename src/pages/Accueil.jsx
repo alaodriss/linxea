@@ -62,8 +62,9 @@ function Accueil() {
                     </div>
             </div>
 
-    {/** partenaires */}
-            <Partenaires />
+            {/** partenaires */}
+                    <Partenaires />
+            {/** partenaires */}
     </section>  
 
     </>
