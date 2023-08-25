@@ -29,7 +29,9 @@
     font-weight: normal;
     line-height: 24px;
     color: var(--e-global-color-4a30db00);
-    padding-right: 37%;
+
+    width: 200px; /* à modifier selon vos besoins */
+  overflow: hidden
 }
 
   
