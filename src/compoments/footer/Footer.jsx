@@ -24,12 +24,44 @@ function Footer() {
                 <li></li>
             </ul>
             <p className="number-phone">01 45 67 34 22 <br/>
-                <span>Du lundi au vendredi de 9h à 18h</span>
+                <span className='time'>Du lundi au vendredi de 9h à 18h</span>
             </p>
             <img   src={GENERALI} alt='logo'/>
             <img  src={APICIL} alt='logo'/>
             <img  src={SPIRICA} alt='logo'/>
             <img   src={SURAVENIR} alt='logo'/>
+        </div>
+        <div className='pages'>
+            <ul>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+            </ul>
+            <ul>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+            </ul>
+            <ul>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+
+            </ul>
+            <ul>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a href='#'>Linxea Avenir</a></li>
+        
+            </ul>
         </div>
 
     </div>
