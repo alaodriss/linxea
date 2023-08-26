@@ -1,6 +1,5 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
-import Header from '../compoments/header/Header';
 import trus from '../assets/images/download.png'
 import trophees from '../assets/images/recompenses-1-min.png'
 import { MdEco } from 'react-icons/md';
@@ -22,7 +21,6 @@ import { SilderAuto } from '../compoments/silder/Silder';
 function Accueil() {
   return (
     <>
-    <Header />
         <section className='slider-container'>
             <div className='slider'> 
             <div className='slider-infos'>
@@ -84,10 +82,10 @@ function Accueil() {
         </div>
         <div className='mission-inofs'>
             <p> Parce que notre mission est de vous apporter toujours plus de conseil, <br/> nos différents pôles d’expertise répondent à vos questions. N'hésitez pas à nous contacter pour bénéficier de nos conseils individualisés</p> 
-            <ul>
-                <li> <AiOutlineCheckCircle />Recommandation d'un contrat adapté à vos besoins et votre profil de risque</li>
-                <li> <AiOutlineCheckCircle /> Recommandation d'un contrat adapté à vos besoins et votre profil de risque</li>
-                <li> <AiOutlineCheckCircle /> Recommandation d'un contrat adapté à vos besoins et votre profil de risque</li>
+            <ul className='mission-recommandation'>
+                <li className='mission-icon'> <AiOutlineCheckCircle />Recommandation d'un contrat adapté à vos besoins et votre profil de risque</li>
+                <li  className='mission-icon'> <AiOutlineCheckCircle /> Recommandation d'un contrat adapté à vos besoins et votre profil de risque</li>
+                <li className='mission-icon'> <AiOutlineCheckCircle /> Recommandation d'un contrat adapté à vos besoins et votre profil de risque</li>
             </ul>
             <div className='simuler'>   <span className='flesh'><IoIosArrowForward /></span>Être conseillé(e)</div>
 

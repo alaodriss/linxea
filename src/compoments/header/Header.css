@@ -45,7 +45,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 10%;
+    margin: 2% 10%;
 }
 
 li > a{

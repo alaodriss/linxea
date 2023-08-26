@@ -33,33 +33,33 @@ function Footer() {
         </div>
         <div className='pages'>
             <ul>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a className='link-con' href='#'>Linxea Avenir</a></li>
             </ul>
             <ul>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
             </ul>
             <ul>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
 
             </ul>
             <ul>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
-                <li><a href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
+                <li><a  className='link-con' href='#'>Linxea Avenir</a></li>
         
             </ul>
         </div>
