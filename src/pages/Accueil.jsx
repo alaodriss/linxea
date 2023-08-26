@@ -12,6 +12,7 @@ import stars from '../assets/images/stars.png'
 import './Accueil.css'
 import Avantage from '../compoments/avantage/Avantage';
 import Partenaires from '../compoments/partenaires/Partenaires';
+import Steps from '../compoments/steps/Steps';
 
 
 
@@ -71,7 +72,11 @@ function Accueil() {
 
     <section className='container-missions'>
         <div className='mission'> 
-        <span className='note'>Notre équipe est <br/>là pour vous</span>
+        <div className='not-equipe'>
+            <p className='equipe-1 '>Notre équipe </p>
+            <p className='equipe-2'>là pour vous</p>
+        </div>
+    
                 <img  className='mission-img' src={mission} alt='mission'/>
         </div>
         <div className='mission-inofs'>
@@ -87,6 +92,8 @@ function Accueil() {
 
     </section>
 
+
+<Steps />
     </>
   )
 }

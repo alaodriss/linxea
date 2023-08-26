@@ -149,12 +149,34 @@
 
 /** Mission **/
 
-.note{
-    background-color:  var(--e-global-color-secondary );
-    color: #fff;
-    font-size: 36px;
-    font-weight: bold;
+
+.not-equipe {
+    position: absolute;
+    top: 14%;
+    right: 72%;
 }
+.equipe-1 {
+    background-color: var(--e-global-color-secondary);
+    color: #fff;
+    font-size: 43px;
+    transform: rotate(352deg);
+    text-align: center;
+    width: 337px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.equipe-2{
+    background-color: var(--e-global-color-secondary);
+    color: #fff;
+    font-size: 43px;
+    transform: rotate(352deg);
+    text-align: center;
+    width: 284px;
+    font-weight: 600;
+    margin-left: 32%;
+}
+
 
 .container-missions{
     background-color: transparent;

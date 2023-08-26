@@ -60,3 +60,31 @@ export const partenaires = [
         partenair:partenair4
     }
 ]
+
+
+export const stepsData =[
+    
+    {
+
+        id:1,
+        text:"Répartissez votre versement sur différents supports. Nous sommes là si vous avez besoin d'aide"
+    },
+      
+    {
+
+        id:2,
+
+        text:"Répartissez votre versement sur différents supports. Nous sommes là si vous avez besoin d'aide"
+    },
+      
+    {
+
+        id:3,
+        text:"Répartissez votre versement sur différents supports. Nous sommes là si vous avez besoin d'aide"
+    },
+    {
+
+        id:4,
+        text:"Répartissez votre versement sur différents supports. Nous sommes là si vous avez besoin d'aide"
+        }
+]
