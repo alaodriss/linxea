@@ -8,6 +8,7 @@ import partenair2 from './assets/images/GENERALI.svg'
 import partenair3 from './assets/images/SURAVENIR.svg'
 import partenair4 from './assets/images/SPIRICA.svg'
 
+const url = "https://www.linxea.com/"
 
 export const Avantages = [
     
@@ -62,6 +63,8 @@ export const partenaires = [
 ]
 
 
+
+
 export const stepsData =[
     
     {
@@ -87,4 +90,33 @@ export const stepsData =[
         id:4,
         text:"Répartissez votre versement sur différents supports. Nous sommes là si vous avez besoin d'aide"
         }
+]
+
+
+export const ArticlesData =[
+    
+    {
+
+        id:1,
+        title:"Utiliser son épargne pour couvrir les dépenses de la rentrée scolaire ?",
+        text:'La rentrée scolaire est l’un des moments les plus onéreux de l’année. Entre les fournitures, le matériel informatique, les vêtements et les activités extra-scolaires, le',
+        link:url,
+    },
+      
+    {
+
+        id:2,
+        title:"Utiliser son épargne pour couvrir les dépenses de la rentrée scolaire ?",
+        text:'La rentrée scolaire est l’un des moments les plus onéreux de l’année. Entre les fournitures, le matériel informatique, les vêtements et les activités extra-scolaires, le',
+        link:url,
+    },
+      
+    {
+
+        id:3,
+        title:"Utiliser son épargne pour couvrir les dépenses de la rentrée scolaire ?",
+        text:'La rentrée scolaire est l’un des moments les plus onéreux de l’année. Entre les fournitures, le matériel informatique, les vêtements et les activités extra-scolaires, le',
+        link:url,
+    },
+
 ]

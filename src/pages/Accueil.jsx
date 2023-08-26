@@ -13,6 +13,7 @@ import './Accueil.css'
 import Avantage from '../compoments/avantage/Avantage';
 import Partenaires from '../compoments/partenaires/Partenaires';
 import Steps from '../compoments/steps/Steps';
+import Articles from '../compoments/articles/Articles';
 
 
 
@@ -91,9 +92,13 @@ function Accueil() {
         </div>
 
     </section>
+        {/** Steps */}
+                <Steps />
+        {/** Steps */}
 
-
-<Steps />
+         {/** Articles */}
+                <Articles />
+        {/** Articles */}
     </>
   )
 }
