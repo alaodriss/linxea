@@ -4,6 +4,7 @@ import Header from '../compoments/header/Header';
 import trus from '../assets/images/download.png'
 import trophees from '../assets/images/recompenses-1-min.png'
 import { MdEco } from 'react-icons/md';
+import { BiSolidMessageRoundedDetail } from 'react-icons/bi';  
 import { AiOutlineCheckCircle } from 'react-icons/ai';    
 import mission from '../assets/images/LINXEA-02-23-HD-NL-62-1536x1024.jpg'
 /*import google from '../assets/images/google.svg'*/
@@ -14,6 +15,8 @@ import Avantage from '../compoments/avantage/Avantage';
 import Partenaires from '../compoments/partenaires/Partenaires';
 import Steps from '../compoments/steps/Steps';
 import Articles from '../compoments/articles/Articles';
+import { SilderAuto } from '../compoments/silder/Silder';
+import Footer from '../compoments/footer/Footer';
 
 
 
@@ -99,7 +102,33 @@ function Accueil() {
          {/** Articles */}
                 <Articles />
         {/** Articles */}
-    </>
+
+   {   /*  <section className='lesAvis'>
+            <div className='avis-infos'>
+                <h2 className='clt'> <BiSolidMessageRoundedDetail />— 97%  Satisfaction des clients</h2>
+                <p>Nos clients nous font confiance</p>
+                <div className='reviews'>
+                    <div className='trustpilot review'>
+                        <span className='note'>4,3&nbsp;<img className='trustpilot' src={trus} alt='trustpilot'/></span>
+                        <img className='stars' src={stars} alt='stars' />
+                    </div>
+                    <div className='google review'>
+                        <span className='note'>4,3&nbsp;<img className='trustpilot' src={trus} alt='google'/></span>
+                        <img className='stars' src={stars} alt='stars' />
+                    </div>
+                    <div className='simuler'>   <span className='flesh'><IoIosArrowForward /></span>Voir plus</div>
+
+                </div>
+            </div>
+            <div className='silder-avis'>
+                <SilderAuto />
+            </div>
+        </section>*/}
+
+
+        <Footer />
+:    </>
+
   )
 }
 
