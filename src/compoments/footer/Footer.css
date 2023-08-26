@@ -29,9 +29,25 @@ li>a{
 .pages{
     display: flex;
     flex-direction: column;
-    padding: 0 40px;
+    padding:40px;
     margin: 0 70px;
 }
 .time{
     font-size: 11px;
+}
+
+.conditon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    background-color: #FF8C12;
+    padding: 40px;
+}
+.conditon>p{
+    color: white;
+}
+
+li>.link-con{
+    font-weight: 500;
+    padding: 0 30px;
 }

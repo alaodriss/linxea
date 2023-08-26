@@ -16,7 +16,6 @@ import Partenaires from '../compoments/partenaires/Partenaires';
 import Steps from '../compoments/steps/Steps';
 import Articles from '../compoments/articles/Articles';
 import { SilderAuto } from '../compoments/silder/Silder';
-import Footer from '../compoments/footer/Footer';
 
 
 
@@ -124,10 +123,7 @@ function Accueil() {
                 <SilderAuto />
             </div>
         </section>*/}
-
-
-        <Footer />
-:    </>
+  </>
 
   )
 }

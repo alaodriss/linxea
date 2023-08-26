@@ -64,6 +64,19 @@ function Footer() {
             </ul>
         </div>
 
+    <div className='conditon'>
+            <p>
+            Conseiller en Investissements Financiers (CIF)<br/>
+                Membre de la CNCGP, association professionnelle agréée par l'Autorité des Marchés Financiers (AMF).<br/>
+                Enregistrée à l’ORIAS en tant que Courtier en Assurance, activité régulée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR).<br/>
+            </p>
+            <ul>
+                <li><a className='link-con' href='#'>condition</a></li>
+                <li><a className='link-con' href='#'>condition</a></li>
+                <li><a className='link-con' href='#'>condition</a></li>
+        
+            </ul>
+    </div>
     </div>
         
     </>
