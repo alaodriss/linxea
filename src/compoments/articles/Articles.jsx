@@ -1,6 +1,7 @@
 import React from 'react'
 import './Articles.css'
 import {ArticlesData} from '../../data'
+import { IoIosArrowForward } from "react-icons/io";
 
 
 function Articles() {
@@ -21,7 +22,7 @@ function Articles() {
     
             }
         </div>
-            
+        <div className='simuler'>   <span className='flesh'><IoIosArrowForward /></span>Voir toutes les récompenses</div>
         </div>
   )
 }
