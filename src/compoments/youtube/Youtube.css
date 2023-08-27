@@ -1,0 +1,31 @@
+.container-yb{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #CCE1EF 0%, var(--e-global-color-4cc7f636 ) 80%);
+  
+}
+
+.all-video{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-yb{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.5em;
+    color: var(--e-global-color-4a30db00);
+    padding:10px 0;
+    text-align: center;
+}
+
+.title-video{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5em;
+    color: var(--e-global-color-4a30db00);
+    margin:10px 0;
+    text-align: center;
+}
+.video-yb{
+    padding: 30px;
+}

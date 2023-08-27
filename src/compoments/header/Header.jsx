@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo-notagline.svg";
 import { BsSearch } from "react-icons/bs";
 import "./Header.css";

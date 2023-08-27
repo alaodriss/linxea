@@ -3,7 +3,9 @@ import { IoIosArrowForward } from "react-icons/io";
 import trus from '../assets/images/download.png'
 import trophees from '../assets/images/recompenses-1-min.png'
 import { MdEco } from 'react-icons/md';
-import { BiSolidMessageRoundedDetail } from 'react-icons/bi';  
+// import { BiSolidMessageRoundedDetail } from 'react-icons/bi';  
+// import { SilderAuto } from '../compoments/silder/Silder';
+
 import { AiOutlineCheckCircle } from 'react-icons/ai';    
 import mission from '../assets/images/LINXEA-02-23-HD-NL-62-1536x1024.jpg'
 /*import google from '../assets/images/google.svg'*/
@@ -14,7 +16,7 @@ import Avantage from '../compoments/avantage/Avantage';
 import Partenaires from '../compoments/partenaires/Partenaires';
 import Steps from '../compoments/steps/Steps';
 import Articles from '../compoments/articles/Articles';
-import { SilderAuto } from '../compoments/silder/Silder';
+import Youtubes from '../compoments/youtube/Youtube';
 
 
 
@@ -121,6 +123,8 @@ function Accueil() {
                 <SilderAuto />
             </div>
         </section>*/}
+
+        <Youtubes Title='Nos experts prennent la parole' />
   </>
 
   )
