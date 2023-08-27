@@ -47,7 +47,7 @@
     background-color: #0056b3;
   }
 
-  h1{
+  .form-container>h1{
     color: var(--e-global-color-4a30db00);
     font-size: 19px;
     font-weight: 600;
