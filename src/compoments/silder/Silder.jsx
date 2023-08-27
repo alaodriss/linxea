@@ -40,7 +40,7 @@ export default function Silder() {
           silders.map((item) => {
             return (
               <SwiperSlide>
-              <div className='blocks'>
+              <div className='blocks' key={item.id}>
                <div className='text'>
                   <h2>{item.title}</h2>
                   <p>{item.text}</p>
@@ -119,7 +119,7 @@ export  function SilderAuto() {
           sildersAuto.map((item) => {
             return (
               <SwiperSlide>
-              <div className='avis'>
+              <div className='avis' key={item.id}>
                <div className='avis-text'>
                   <h2>{item.name}<img src={stars} alt=''/></h2>
                   <p>{item.text}</p>

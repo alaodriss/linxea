@@ -10,7 +10,7 @@ function Steps() {
     <div className='steps'>
         {stepsData.map((item) => {
             return(
-                    <div className='step'>
+                    <div className='step' key={item.id}>
                         <div className='numb'>{item.id}</div>
                         <p className='step-text'> {item.text}</p>
                     </div>

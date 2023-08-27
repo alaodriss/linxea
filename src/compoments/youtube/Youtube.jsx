@@ -56,7 +56,7 @@ function Youtubes({Title}) {
             <h2 className='title-yb'>{Title}</h2>
             <div className='all-video'>
             {linkYb.map((video) => (
-                <div className='video-yb'> 
+                <div className='video-yb' key={video.id}> 
                       <YoutubeVideo key={video.id} videoId={video.videoId} title={video.title} />
                 </div> 
             ))}
