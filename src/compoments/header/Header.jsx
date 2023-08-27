@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
+ import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo-notagline.svg";
 import { BsSearch } from "react-icons/bs";
 import "./Header.css";
@@ -37,30 +37,30 @@ function Header() {
         <div className="menus">
           <ul className="navigation-bar">
             <li>
-              <a exact to="/">
+              <NavLink exact to="/Assurance">
                 Assurance vie
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a to="/">Retraite – PER</a>
+              <NavLink to="/Retraite">Retraite – PER</NavLink>
             </li>
             <li>
-              <a to="/">SCPI</a>
+              <NavLink to="/SCPI">SCPI</NavLink>
             </li>
             <li>
-              <a exact to="/">
+              <NavLink exact to="/">
               Produits structurés
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a to="/">Autres placements</a>
+              <NavLink to="/">Autres placements</NavLink>
             </li>
             <li>
-              <a to="/">Comprendre l’épargne</a>
+              <NavLink to="/">Comprendre l’épargne</NavLink>
             </li>
             <li>
-              <a to="/">
-                    Découvrez-nouss</a>
+              <NavLink to="/">
+                    Découvrez-nouss</NavLink>
             </li>
           </ul>
         </div>
