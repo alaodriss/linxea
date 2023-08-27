@@ -1,16 +1,24 @@
 import React, { useState } from "react";
- import { NavLink } from "react-router-dom";
+ import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/logo-notagline.svg";
 import { BsSearch } from "react-icons/bs";
 import "./Header.css";
 
+
 function Header() {
+  let Navigate =useNavigate();
+
   const [isSearchVisible, setSearchVisible] = useState(false);
 
   const toggleSearch = () => {
     setSearchVisible(!isSearchVisible);
   };
 
+  const handleClientPage =  () =>{
+    Navigate("/Formclient")
+  
+  }
+    
   return (
     <>
       <div className="container">
@@ -25,12 +33,12 @@ function Header() {
                 <BsSearch />
               </button>
               {isSearchVisible && (
-                <form>
-                  <input type="search" placeholder="Search..." />
+                <form className="Fsearch">
+                  <input id="search" type="search" placeholder="Search..." />
                 </form>
               )}
             </div>
-            <div className="btn-inscription">Souscrire en ligne</div>
+            <button  onClick={handleClientPage} className="btn-inscription">Souscrire en ligne</button>
             <div className="btn-client">Espace client</div>
           </div>
         </div>

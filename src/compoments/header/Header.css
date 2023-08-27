@@ -64,7 +64,7 @@ li > a{
   align-items: stretch;
 }
 
-form {
+.Fsearch>form {
   color: #555;
   display: flex;
   padding: 2px;
@@ -88,7 +88,7 @@ input[type="search"]::placeholder {
   color: #bbb;
 }
 
-button[type="submit"] {
+#search>button[type="submit"] {
   text-indent: -999px;
   overflow: hidden;
   width: 40px;
@@ -101,11 +101,13 @@ button[type="submit"] {
   opacity: 0.7;
 }
 
-button[type="submit"]:hover {
+
+#search>button[type="submit"]:hover {
   opacity: 1;
 }
 
-button[type="submit"]:focus,
+
+#search>button[type="submit"]:focus,
 input[type="search"]:focus {
   box-shadow: 0 0 3px 0 #1183d6;
   border-color: #1183d6;

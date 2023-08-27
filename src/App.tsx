@@ -8,6 +8,8 @@ import Header from './compoments/header/Header';
 import Scpi from './pages/Scpi';
 import AssuranceVie from './pages/AssuranceVie';
 import Retraite from './pages/Retraite';
+import {Formlient} from './utiles/Form/FormClient';
+
 function App() {
   return (
     <>
@@ -19,6 +21,9 @@ function App() {
           <Route  path="/Assurance" element={<AssuranceVie/>} />
           <Route  path="/SCPI" element={<Scpi/>} />
           <Route path="/Retraite" element={<Retraite/>} />
+           {/** link Form Client  */}
+          <Route path="/Formclient" element={<Formlient/>} />
+
         </Routes>
    </BrowserRouter>
    <Footer />

@@ -1,0 +1,112 @@
+.form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px hsla(0,0%,90%,.8);  }
+  
+  .form{
+    color: #555;
+    /* display: flex; */
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    margin: 0 0 30px;
+    text-align: center;
+  }
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: var(--e-global-color-secondary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  h1{
+    color: var(--e-global-color-4a30db00);
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* ... Existing styles ... */
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+
+.reconnecter{
+  display: flex;
+  justify-content: space-around;
+}   
+
+.border-r {
+    border-right: 1px solid var(--e-global-color-secondary);
+}
+
+.link-connecter{
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--e-global-color-4a30db00);
+    position: relative;
+}
+
+.link-connecter:hover{
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    color:var(--e-global-color-secondary);
+
+}
+
+.flesh-co {
+    font-size: 1.6em;
+    position: relative;
+    top: 6px;
+}
+
+hr{
+   color: var(--e-global-color-640c3a94);
+    margin: 20px auto;
+}
+
+.to-activate-account{
+    text-align: center;
+}
+.to-activate-account>a {
+    color:var(--e-global-color-secondary);
+    font-size: 13px;
+    text-decoration: underline;
+}
